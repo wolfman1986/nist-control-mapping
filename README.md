@@ -36,5 +36,4 @@ Start with `scope.md` and `methodology.md`, then review the control files in `co
 ## Why This Matters
 This project demonstrates how security controls can be translated into a clear governance workflow. It shows that I can organize compliance work, document evidence, and communicate gaps in a way that is useful to employers and audit-oriented teams.
 
-## Notes
-This is a portfolio demonstration, not a formal assessment or audit package.
+
