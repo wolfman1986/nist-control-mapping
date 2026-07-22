@@ -1,50 +1,40 @@
 # NIST Control Mapping
 
-This repository demonstrates a NIST control mapping exercise for a sample system. It shows how security controls can be organized, traced to evidence, and reviewed for gaps.
+This repository is a portfolio project that demonstrates how to map NIST security controls to evidence, gaps, risks, and exceptions for a sample information system.
 
-The goal of this project is to present a practical GRC artifact that shows control traceability, implementation status, and supporting evidence.
+## Overview
+The goal of this project is to show practical GRC skills, including control mapping, evidence tracking, gap analysis, and risk documentation. The repository is organized to mirror how a real compliance or assurance artifact would be structured.
 
-## Scope
+## What It Shows
+- How to define scope for a control mapping exercise.
+- How to document control summaries and implementation status.
+- How to connect controls to evidence.
+- How to record gaps, exceptions, and risks.
+- How to explain methodology and future improvements.
 
-This repository uses a sample system to demonstrate NIST control mapping.
+## Repository Structure
+- `scope.md` — project boundaries and assumptions.
+- `methodology.md` — how control status was determined.
+- `references.md` — source material used for the project.
+- `controls/` — individual control writeups.
+- `evidence/` — sample evidence files.
+- `gap-analysis.md` — gaps identified from the sample mapping.
+- `risk-register.md` — risks tied to the gaps.
+- `exceptions.md` — compensating controls and exceptions.
+- `roadmap.md` — future improvements for the project.
 
-### In Scope
-- One example information system.
-- A small set of NIST SP 800-53 Rev. 5 controls.
-- Control status, evidence, and gap tracking.
+## Control Coverage
+The current sample set includes:
+- AC-2 — Account Management.
+- AU-2 — Event Logging.
+- IA-2 — Identification and Authentication.
+- CM-2 — Baseline Configuration.
 
-### Out of Scope
-- Full enterprise assessment.
-- Certification or formal audit readiness.
-- All NIST controls and families.
+## How To Read This Repo
+Start with `scope.md` and `methodology.md`, then review the control files in `controls/`, the supporting evidence in `evidence/`, and the gap and risk files that show how the project matures from control definition to remediation planning.
 
-## Control Matrix
+## Why This Matters
+This project demonstrates how security controls can be translated into a clear governance workflow. It shows that I can organize compliance work, document evidence, and communicate gaps in a way that is useful to employers and audit-oriented teams.
 
-| Control ID | Control Name | Status | Evidence | Owner |
-|---|---|---|---|---|
-| AC-2 | Account Management | In Progress | evidence/ac-2.md | Security Team |
-| AU-2 | Event Logging | Implemented | evidence/au-2.md | IT Operations |
-| CM-2 | Baseline Configuration | Planned | evidence/cm-2.md | Infrastructure Team |
-| IA-2 | Identification and Authentication | Implemented | evidence/ia-2.md | IAM Team |
-| IR-4 | Incident Handling | In Progress | evidence/ir-4.md | SOC Team |
-
-## Evidence and Gaps
-
-### Evidence
-- `evidence/ac-2.md` — Account management example evidence.
-- `evidence/au-2.md` — Logging example evidence.
-- `evidence/ia-2.md` — Authentication example evidence.
-- `evidence/ir-4.md` — Incident response example evidence.
-
-### Gaps
-- Some controls are still in progress.
-- Some evidence is only a placeholder.
-- This project is a demonstration, not a full audit package.
-
-## Usage
-
-Review the control matrix, evidence files, and gap analysis to understand how the sample NIST mapping is organized.
-
-## License
-
-This project is for portfolio and educational purposes.
+## Notes
+This is a portfolio demonstration, not a formal assessment or audit package.
