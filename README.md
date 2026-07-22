@@ -40,3 +40,11 @@ This repository uses a sample system to demonstrate NIST control mapping.
 - Some controls are still in progress.
 - Some evidence is only a placeholder.
 - This project is a demonstration, not a full audit package.
+
+## Usage
+
+Review the control matrix, evidence files, and gap analysis to understand how the sample NIST mapping is organized.
+
+## License
+
+This project is for portfolio and educational purposes.
