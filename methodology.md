@@ -6,16 +6,16 @@ This file explains how control status, evidence, and risk were evaluated in this
 ## Authoritative Sources
 The project was based on official NIST publications and NIST-hosted control mapping resources, including:
 - NIST SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and Organizations.
-- NIST SP 800-53B, Control Baselines for Information Systems and Organizations.
 - NIST SP 800-53A Rev. 5, Assessing Security and Privacy Controls in Information Systems and Organizations.
+- NIST SP 800-53B, Control Baselines for Information Systems and Organizations.
 - NIST OSCAL Control Mapping Model documentation.
 - NIST IR 8477, Mapping Relationships Between Documentary Standards, Regulations, Frameworks, and Guidelines.
 - NIST IR 8286A, Identifying and Estimating Cybersecurity Risk for Enterprise Risk Management.
 
 ## How The Sources Were Used
 - SP 800-53 Rev. 5 was used as the main control catalog for the sample control set.
+- SP 800-53A Rev. 5 informed how evidence and assessment thinking were organized.
 - SP 800-53B was used to understand baseline and tailoring context.
-- SP 800-53A informed how evidence and assessment thinking were organized.
 - OSCAL documentation informed how to think about control relationships, mappings, and traceability.
 - IR 8477 informed how to think about mappings between standards, frameworks, and guidelines.
 - IR 8286A informed the risk register structure, including likelihood, impact, and risk treatment.
