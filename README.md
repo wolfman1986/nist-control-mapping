@@ -17,3 +17,13 @@ This repository uses a sample system to demonstrate NIST control mapping.
 - Full enterprise assessment.
 - Certification or formal audit readiness.
 - All NIST controls and families.
+
+## Control Matrix
+
+| Control ID | Control Name | Status | Evidence | Owner |
+|---|---|---|---|---|
+| AC-2 | Account Management | In Progress | evidence/ac-2.md | Security Team |
+| AU-2 | Event Logging | Implemented | evidence/au-2.md | IT Operations |
+| CM-2 | Baseline Configuration | Planned | evidence/cm-2.md | Infrastructure Team |
+| IA-2 | Identification and Authentication | Implemented | evidence/ia-2.md | IAM Team |
+| IR-4 | Incident Handling | In Progress | evidence/ir-4.md | SOC Team |
