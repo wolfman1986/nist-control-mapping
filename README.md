@@ -27,3 +27,16 @@ This repository uses a sample system to demonstrate NIST control mapping.
 | CM-2 | Baseline Configuration | Planned | evidence/cm-2.md | Infrastructure Team |
 | IA-2 | Identification and Authentication | Implemented | evidence/ia-2.md | IAM Team |
 | IR-4 | Incident Handling | In Progress | evidence/ir-4.md | SOC Team |
+
+## Evidence and Gaps
+
+### Evidence
+- `evidence/ac-2.md` — Account management example evidence.
+- `evidence/au-2.md` — Logging example evidence.
+- `evidence/ia-2.md` — Authentication example evidence.
+- `evidence/ir-4.md` — Incident response example evidence.
+
+### Gaps
+- Some controls are still in progress.
+- Some evidence is only a placeholder.
+- This project is a demonstration, not a full audit package.
